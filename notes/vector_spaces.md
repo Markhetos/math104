@@ -1,5 +1,10 @@
+---
+title: "Vector Spaces & Subspaces"
+permalink: /notes/vector-spaces/
+---
+
 # Math 104: Applied Matrix Theory
-## Day 1 - Vector Spaces & Subspaces
+## Vector Spaces & Subspaces
 **Date:** Nov 17, 2025  
 **Instructor:** Dr. Emmanuel Candès  
 **References:** Lecture 4 | Laub Ch. 2 | HW1
@@ -452,4 +457,4 @@ $$\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}
 
 ---
 
-**END OF DAY 1 NOTES**
+**END OF NOTES**
