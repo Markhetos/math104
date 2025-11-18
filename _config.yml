@@ -1,10 +1,20 @@
 title: "Marco's Notes on Linear Algebra"
+description: "Math 104: Applied Matrix Theory — Stanford, Fall 2025"
+author: "Marco Paes"
+url: "https://markhetos.github.io"
+baseurl: "/math104"
+
 markdown: kramdown
 kramdown:
+  input: GFM
   math_engine: mathjax
   syntax_highlighter: rouge
 
-theme: minima
+plugins:
+  - jekyll-seo-tag
 
-exclude:
-  - README.md
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
