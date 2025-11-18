@@ -14,5 +14,5 @@ render cleanly.
 
 ## 📘 Contents
 
-- [Day 1 – Real Analysis Annotations](Math%20104%20-%20Annotations%20Day%201.md)
+- [Day 1 – Real Analysis Annotations]([Math%20104%20-%20Annotations%20Day%201.md](https://github.com/Markhetos/math104/blob/main/notes/01.vector_spaces_and_subspaces.md))
 - (More sections coming soon...)
