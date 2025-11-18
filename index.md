@@ -1,18 +1,36 @@
-# Marco's Notes on Linear Algebra
+---
+title: "Math 104: Applied Matrix Theory"
+---
 
-Welcome! This is my personal collection of math, engineering, and computer science notes.
+# Math 104 — Applied Matrix Theory
 
-These notes use full LaTeX support powered by **MathJax**, so both inline `$...$` and block math
+Welcome! This is my personal collection of notes for **Math 104: Applied Matrix Theory** (Stanford, Fall 2025).
 
-$$
-\int_a^b f(x)\,dx
-$$
-
-render cleanly.
+These notes are meant to be a clear, structured **online notebook** for myself, and hopefully, a **resource for other students** studying linear algebra / matrix theory.
 
 ---
 
 ## 📘 Contents
 
-- [Day 1 – Real Analysis Annotations]([Math%20104%20-%20Annotations%20Day%201.md](https://github.com/Markhetos/math104/blob/main/notes/01.vector_spaces_and_subspaces.md))
-- (More sections coming soon...)
+- [Vector Spaces & Subspaces]({{ site.baseurl }}/notes/vector-spaces/)
+- [Orthogonality & Inner Products]
+- [QR Factorization]
+- [Linear Systems & LU Factorization]
+- [Least Squares Theory]
+- [Least Squares via QR]
+- [SVD & Eigenvalues]
+- [SVD Applications]
+- [Low-Rank Approximation]
+- [PCA & Data Analysis]
+- [Eigenvalues & Eigenvectors]
+- [Spectral Theorem]
+- [Positive (Semi)Definite Matrices]
+- [Matrix Norm]
+- [Computational Topics]
+- [Applications: Deep Dive]
+
+## 📎 Sections
+
+- [Notes]({{ site.baseurl }}/notes/) — day-by-day lecture annotations  
+- [Cheatsheets]({{ site.baseurl }}/cheatsheets/) — condensed formulas & theorems  
+- [Problems]({{ site.baseurl }}/problems/) — practice problems and solutions
