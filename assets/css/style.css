@@ -1,0 +1,89 @@
+:root {
+  --bg: #fdfdfd;
+  --text: #111;
+  --accent: #1a73e8;
+  --muted: #666;
+  --border: #e0e0e0;
+  --max-width: 900px;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+               "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: white;
+}
+
+.wrapper {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem;
+}
+
+.site-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.site-nav {
+  float: right;
+  display: flex;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+.page-content {
+  padding: 1.5rem 0 3rem;
+}
+
+.page-content .wrapper {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.04);
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 1.5rem;
+}
+
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+               "Courier New", monospace;
+  font-size: 0.95em;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: #fafafa;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
